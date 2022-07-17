@@ -1,6 +1,3 @@
-" Syntax stuff
-
-" Syntax {{{
 
 set nocompatible
 filetype on
@@ -12,10 +9,6 @@ set tabstop=4
 set nobackup
 set nowrap
 
-" }}}
-
-" Search {{{
-
 set incsearch
 set ignorecase
 set smartcase
@@ -25,15 +18,9 @@ set showmatch
 set hlsearch
 set history=1000
 
-}}}
-
-" Autofill {{{
-
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
-
-" }}}
 
 inoremap " ""<left>
 inoremap ' ''<left>

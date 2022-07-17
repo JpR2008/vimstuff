@@ -18,16 +18,16 @@ make these directories:
 .vim/plugged
 
 command for which is:
-    mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged
+    *mkdir -p ~/.vim ~/.vim/autoload ~/.vim/backup ~/.vim/colors ~/.vim/plugged*
     
 
 install vimplug:
-  $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+  *$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \*
+    *https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim* 
     
 cd to .vim/colors and:
 
-  curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim
+  *$ curl -o molokai.vim https://raw.githubusercontent.com/tomasr/molokai/master/colors/molokai.vim*
   
 after this open .vimrc and use the following editor command:
 

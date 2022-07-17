@@ -33,3 +33,5 @@ after this open .vimrc and use the following editor command:
 
   :PlugInstall
 This will install the vim plugins
+
+if anything here dosen't work go to https://www.freecodecamp.org/news/vimrc-configuration-guide-customize-your-vim-editor/ for something that actually works
